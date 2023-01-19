@@ -23,7 +23,7 @@ header h1{
 }
 
 .container{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   /* debug */
   height: 600px;
   width: 66%;
@@ -37,6 +37,7 @@ header h1{
 
 .container > p{
   margin-bottom: 50px;
+  text-align-last: center;
 }
 
 .float-left{
@@ -48,18 +49,23 @@ header h1{
 }
 
 img{
-  height: 80px;
+  height: 70px;
   margin-right: 4px;
 }
 
 .profile{
   color: white;
   /* height: 100px; */
-  min-width: 250px;
+  width: calc(100% / 3 - 10px);
+  
   background-color: #0F0E17;
+  margin-bottom: 30px;
   
-  margin-bottom: 50px;
-  
+  /* margin-bottom: 50px; */  
+}
+
+.middle{
+  margin-left: 15px;
 }
 
 .profile h5{
