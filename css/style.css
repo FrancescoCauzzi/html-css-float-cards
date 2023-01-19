@@ -13,12 +13,67 @@ body{
 
 header{
   margin-bottom: 65px;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 header h1{
   color: #E53170;
   text-align: center;
-  font-weight: bold;
+  font-weight: bold;  
+}
+
+.container{
+  border: 2px solid black;
+  /* debug */
+  height: 600px;
+  width: 66%;
+  margin: 0 auto;
+  /* clearfix */
+  display: table;
+  content: "";
+  clear: both;
+  padding-right: 0;
+}
+
+.container > p{
+  margin-bottom: 50px;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float: right;
+}
+
+img{
+  height: 80px;
+  margin-right: 4px;
+}
+
+.profile{
+  color: white;
+  /* height: 100px; */
+  min-width: 250px;
+  background-color: #0F0E17;
   
+  margin-bottom: 50px;
+  
+}
+
+.profile h5{
+  padding-top: 15px;
+}
+
+.profile p{
+  font-size: 0.7em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.profile a{
+  text-decoration: none;
+  font-size: 0.7em;
+  color: #6FC8F2;
 }
