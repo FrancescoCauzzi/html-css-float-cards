@@ -28,12 +28,15 @@ header h1{
   height: 600px;
   width: 66%;
   margin: 0 auto;
-  /* clearfix */
-  display: table;
-  content: "";
-  clear: both;
-  padding-right: 0;
+  
 }
+
+/*clea-fix*/
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+} 
 
 .container > p{
   margin-bottom: 50px;
@@ -56,12 +59,12 @@ img{
 .profile{
   color: white;
   /* height: 100px; */
-  width: calc(100% / 3 - 15px);
+  width: calc(100% / 3 - 20px);
   
   background-color: #0F0E17;
   
   
-  margin: 0px 10px 30px 2px  
+  margin: 0px 18px 30px 2px  
 }
 
 /* .middle{
