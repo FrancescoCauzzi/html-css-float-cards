@@ -56,17 +56,17 @@ img{
 .profile{
   color: white;
   /* height: 100px; */
-  width: calc(100% / 3 - 10px);
+  width: calc(100% / 3 - 15px);
   
   background-color: #0F0E17;
-  margin-bottom: 30px;
   
-  /* margin-bottom: 50px; */  
+  
+  margin: 0px 10px 30px 2px  
 }
 
-.middle{
+/* .middle{
   margin-left: 15px;
-}
+} */
 
 .profile h5{
   padding-top: 15px;
