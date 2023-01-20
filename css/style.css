@@ -25,18 +25,19 @@ header h1{
 .container{
   /* border: 2px solid black; */
   /* debug */
-  height: 600px;
+  /* height: 600px; */
   width: 66%;
+  height: 80%;
   margin: 0 auto;
   
 }
 
-/*clea-fix*/
+/*clear-fix*/
 .container::after {
   content: "";
   display: block;
   clear: both;
-} 
+}   
 
 .container > p{
   margin-bottom: 50px;
